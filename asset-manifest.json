@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/projectcovid/static/css/main.a10f7bcd.chunk.css",
+    "main.js": "/projectcovid/static/js/main.07ae3630.chunk.js",
+    "main.js.map": "/projectcovid/static/js/main.07ae3630.chunk.js.map",
+    "runtime-main.js": "/projectcovid/static/js/runtime-main.c49ddf4e.js",
+    "runtime-main.js.map": "/projectcovid/static/js/runtime-main.c49ddf4e.js.map",
+    "static/css/2.70bfff67.chunk.css": "/projectcovid/static/css/2.70bfff67.chunk.css",
+    "static/js/2.4ded5ab7.chunk.js": "/projectcovid/static/js/2.4ded5ab7.chunk.js",
+    "static/js/2.4ded5ab7.chunk.js.map": "/projectcovid/static/js/2.4ded5ab7.chunk.js.map",
+    "index.html": "/projectcovid/index.html",
+    "static/css/2.70bfff67.chunk.css.map": "/projectcovid/static/css/2.70bfff67.chunk.css.map",
+    "static/css/main.a10f7bcd.chunk.css.map": "/projectcovid/static/css/main.a10f7bcd.chunk.css.map",
+    "static/js/2.4ded5ab7.chunk.js.LICENSE.txt": "/projectcovid/static/js/2.4ded5ab7.chunk.js.LICENSE.txt",
+    "static/js/main.07ae3630.chunk.js.LICENSE.txt": "/projectcovid/static/js/main.07ae3630.chunk.js.LICENSE.txt",
+    "static/media/anime3.png": "/projectcovid/static/media/anime3.4438e506.png",
+    "static/media/all.min.css": "/projectcovid/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/nucleo-icons.css": "/projectcovid/static/media/nucleo.bd5cce8b.eot",
+    "static/media/side-image.png": "/projectcovid/static/media/side-image.8c466c2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c49ddf4e.js",
+    "static/css/2.70bfff67.chunk.css",
+    "static/js/2.4ded5ab7.chunk.js",
+    "static/css/main.a10f7bcd.chunk.css",
+    "static/js/main.07ae3630.chunk.js"
+  ]
+}
