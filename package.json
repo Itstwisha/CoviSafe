@@ -36,7 +36,7 @@
     "minify-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --output-style compressed",
     "map-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css --source-map true",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
