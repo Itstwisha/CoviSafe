@@ -1,19 +1,19 @@
 import React from 'react';
- 
+import { Card } from 'reactstrap';
 
 
 function Home(){
     return (
  <>
-           
+    <div className="content">
     
-     
+      <Card>
       <div class="page-header clear-filter">
         <div class="content-center">
           <div class="col-md-8 ml-auto mr-auto">
-            <div class="brand">
-            <img src={require("assets/img/logo-1.png").default} alt="logo" style={{marginTop: "20px"}} / >
-               <div class="left-container" style={{margin: "40px", marginTop: "60px", display: "grid", padding: "30px", textAlign: "left"}}>
+            <div>
+            <img src={require("assets/img/logo-1.png").default} alt="logo" style={{marginTop: "20px",  top: "8px", left: "16px"}} / >
+               <div class="left-container" style={{margin: "40px", marginTop: "60px", display: "grid", padding: "20px", textAlign: "left"}}>
                    <h1 style={{color: "#FA6400"}}>COVID 19</h1>
                    <h3>Wear Mask, Maintain Social Distancing</h3>
                    <p style={{wordWrap: "break-word"}}>
@@ -29,7 +29,8 @@ function Home(){
           </div>
         </div>
       </div>
-       
+      </Card> 
+      </div>
 
       </>
     );

@@ -1,4 +1,4 @@
- 
+  
 import React from "react";
 
 // reactstrap components
@@ -7,107 +7,155 @@ import {
   CardHeader,
   CardBody,
   CardTitle,
-  Table,
   Row,
   Col,
 } from "reactstrap";
 
-function Tables() {
+ 
+import { MDBDataTable } from 'mdbreact';
+
+const Tables = () => {
+  const data = {
+    columns: [
+      {
+        label: 'Name',
+        field: 'name',
+        width: 150,
+        attributes: {
+          'aria-controls': 'DataTable',
+          'aria-label': 'Name',
+        },
+      },
+      {
+        label: 'Name',
+        field: 'name',
+        width: 270,
+      },
+      {
+        label: 'Location',
+        field: 'location',
+        width: 200,
+      },
+      {
+        label: 'Contact',
+        field: 'contact',
+        width: 100,
+      },
+      {
+        label: 'Price',
+        field: 'price',
+        width: 150,
+      },
+    ],
+    rows: [
+      {
+      
+        name: 'Shubh Rasaoi',
+        location: 'Gautam Budh Nagar',
+        contact: '8600422337',
+        price: 'Starting Rs. 110',
+      },
+      {
+      
+        name: 'Tasty Tiffin',
+        location: 'Janakpuri, Tilal Nagar, Rajouri Nagar',
+        contact: '9311851381',
+        price: 'Starting Rs. 90',
+      },
+      {
+      
+        name: 'Kitchen 108',
+        location: 'DELHI NCR',
+        contact: '7011759908',
+        price: 'Starting Rs. 349',
+      },
+      {
+      
+        name: 'JustMyRoots',
+        location: 'Delhi/Gurugram',
+        contact: '8384030811',
+        price: 'Starting Rs. 481',
+      },
+      {
+      
+        name: 'Savoury and Sage',
+        location: 'DELHI NCR',
+        contact: '9654562471',
+        price: 'Starting Rs. 75',
+      },
+      {
+      
+        name: 'Mamas Cook House',
+        location: 'West Delhi',
+        contact: '971167475',
+        price: 'Starting Rs. 110',
+      },
+      {
+      
+        name: 'Quikish',
+        location: 'DELHI NCR',
+        contact: '7337039595',
+        price: 'Starting Rs. 179',
+      },
+      {
+      
+        name: 'Jain International Organization',
+        location: 'Faridabad',
+        contact: '9313208735',
+        price: 'Free',
+      },
+      {
+      
+        name: 'Beyond Designs Bistro',
+        location: 'South Delhi & Gurugram',
+        contact: '9717741360',
+        price: 'Starting Rs. 249',
+      },
+      {
+      
+        name: 'Shubh Rasaoi',
+        location: 'Greater Noida & Indirapuram',
+        contact: '8600422337',
+        price: 'Starting Rs. 110',
+      },
+      {
+      
+        name: 'Spicy Triangle by Ashwani Shroff',
+        location: 'DELHI NCR',
+        contact: '9899009779',
+        price: 'Free',
+      },
+     
+    ],
+  }
+
   return (
     <>
-      <div className="content">
-        <Row>
-          <Col md="12">
-            <Card>
-              <CardHeader>
-                <CardTitle tag="h4">Covid Food List</CardTitle>
-              </CardHeader>
-              <CardBody>
-                <Table className="tablesorter" responsive>
-                  <thead className="text-primary">
-                    <tr>
-                      <th>Name</th>
-                      <th>Location</th>
-                      <th>Contact</th>
-                      <th className="text-center">Price</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Shubh Rasaoi</td>
-                      <td>Gautam Budh Nagar</td>
-                      <td>8600422337</td>
-                      <td className="text-center">Starting Rs. 110</td>
-                    </tr>
-                    <tr>
-                      <td>Tasty Tiffin</td>
-                      <td>Janakpuri, Tilal Nagar, Rajouri Nagar</td>
-                      <td>9311851381</td>
-                      <td className="text-center">Starting Rs. 90</td>
-                    </tr>
-                    <tr>
-                      <td>Kitchen 108</td>
-                      <td>DELHI NCR</td>
-                      <td>7011759908</td>
-                      <td className="text-center">Starting Rs. 349</td>
-                    </tr>
-                    <tr>
-                      <td>JustMyRoots</td>
-                      <td>Delhi/Gurugram</td>
-                      <td>8384030811</td>
-                      <td className="text-center">Starting Rs. 481</td>
-                    </tr>
-                    <tr>
-                      <td>Savoury and Sage</td>
-                      <td>DELHI NCR</td>
-                      <td>9654562471</td>
-                      <td className="text-center">Starting Rs. 75</td>
-                    </tr>
-                    <tr>
-                      <td>Mama's Cook House</td>
-                      <td>West Delhi</td>
-                      <td>971167475</td>
-                      <td className="text-center">Starting Rs. 150</td>
-                    </tr>
-                    <tr>
-                      <td>Quikish</td>
-                      <td>DELHI NCR</td>
-                      <td>7337039595</td>
-                      <td className="text-center">Starting Rs. 179</td>
-                    </tr>
-                    <tr>
-                      <td>Jain International Organization</td>
-                      <td>Faridabad</td>
-                      <td>9313208735</td>
-                      <td className="text-center">Free</td>
-                    </tr>
-                    <tr>
-                      <td>Beyond Designs Bistro</td>
-                      <td>South Delhi & Gurugram</td>
-                      <td>9717741360</td>
-                      <td className="text-center">Starting Rs. 249</td>
-                    </tr>
-                    <tr>
-                      <td>Shubh Rasaoi</td>
-                      <td>Greater Noida & Indirapuram</td>
-                      <td>8600422337</td>
-                      <td className="text-center">Starting Rs. 110</td>
-                    </tr>
-                    <tr>
-                      <td>Spicy Triangle by Ashwani Shroff</td>
-                      <td>DELHI NCR</td>
-                      <td>9899009779</td>
-                      <td className="text-center">Free</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-      </div>
+  <div className="content">
+<Row>
+  <Col md="12">
+  <Card>
+    <CardHeader>
+      <CardTitle tag="h4">Covid Food Resources</CardTitle>
+    </CardHeader>
+    <CardBody>
+    <MDBDataTable
+      striped
+      bordered
+      small
+      data={data}
+    />
+    </CardBody>
+  </Card>
+  </Col>
+</Row>
+  </div>
+
+
     </>
   );
 }
+
+   
 
 export default Tables;

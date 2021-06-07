@@ -16,15 +16,16 @@
 
 */
 import Dashboard from "views/Dashboard.js";
-import Icons from "views/Icons.js";
 import Map from "views/Map.js";
+import Symptoms from "views/Symptoms.js";
+import TableDoctor from "views/TableDoctor.js";
 import TableListFood from "views/TableListFood.js";
 import TableMedicine from "views/TableMedicine.js";
 import TableHospital from "views/TableHospital.js";
 import TableBloodBank from "views/TableBloodBank.js";
 import TableCylinder from "views/TableCylinder.js";
-// import Typography from "views/Typography.js";
-import UserProfile from "views/UserProfile.js";
+import VaccineSlot from "views/VaccineSlot.js";
+// import UserProfile from "views/UserProfile.js";
 import Home from "views/Home.js";
 
 var routes = [
@@ -59,17 +60,10 @@ var routes = [
        name: "Disease Symptoms",
       path: "/ouranalysis/symptoms",
       layout: "/admin",
+      component: Symptoms,
       icon: "tim-icons icon-alert-circle-exc"
     },
-      {
-       name: "Vaccination Survey Data",
-      path: "/ouranalysis/vaccinationsurvey",
-      icon: "tim-icons icon-chart-bar-32",
-      component: UserProfile,
-      layout: "/admin",
-    },
-      
-  
+     
   {
     name: "Resource",
     icon: "tim-icons icon-minimal-down",
@@ -79,12 +73,15 @@ var routes = [
     {
        name: "Vaccine Availability",
       path: "/resource/vaccineavailability",
-      icon: "tim-icons icon-bulb-63"
+      icon: "tim-icons icon-bulb-63",
+      component: VaccineSlot,
+      layout: "/admin",
     },
     {
        name: "Doctor Consultation",
        path: "/resource/doctorconsultation",
         icon: "tim-icons icon-badge",
+      component: TableDoctor,         
         layout: "/admin",
 
       
