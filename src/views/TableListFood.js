@@ -26,15 +26,11 @@ const Tables = () => {
           'aria-label': 'Name',
         },
       },
-      {
-        label: 'Name',
-        field: 'name',
-        width: 270,
-      },
+       
       {
         label: 'Location',
         field: 'location',
-        width: 200,
+        width: 100,
       },
       {
         label: 'Contact',
@@ -44,7 +40,7 @@ const Tables = () => {
       {
         label: 'Price',
         field: 'price',
-        width: 150,
+        width: 100,
       },
     ],
     rows: [

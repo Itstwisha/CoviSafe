@@ -2,7 +2,7 @@
   "name": "black-dashboard-react",
   "version": "1.2.0",
   "private": true,
-  "homepage": "http://Itstwisha.github.io/projectcovid",
+  "homepage": "http://youthpowerindia.in",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.1",
     "@material-ui/core": "^4.11.4",
@@ -24,7 +24,10 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.1",
     "reactstrap": "8.7.1",
-    "styled": "^1.0.0"
+    "styled": "^1.0.0",
+    "eslint-plugin-flowtype": "5.2.0",
+    "jquery": "3.5.1",
+    "typescript": "4.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -56,5 +59,22 @@
     "gh-pages": "^3.2.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itstwisha/projectcovid.git"
+  },
+  "keywords": [
+    "covid",
+    "help",
+    "vaccine",
+    "oxygen"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itstwisha/projectcovid/issues"
+  },
+  "description": ""
 }

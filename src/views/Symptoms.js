@@ -12,15 +12,12 @@ function Symptoms() {
           <Col md="12">
             <Card>
               <CardHeader className="mb-5">
-                <h2>Corona Virus Symptoms</h2>
+                <h2 style={{color: "#FA6400", marginBottom: "0"}}>Corona Virus Symptoms</h2>
               </CardHeader>
               <CardBody>
-                  <p>
+                  <h3>
                    COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.
-
-                  </p>
-          
-              
+                  </h3>
                   <Row>
                     <Col md="3">
                       <h5>Most common symptoms:</h5>

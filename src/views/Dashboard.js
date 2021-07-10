@@ -105,7 +105,7 @@ function Dashboard(props) {
               <CardHeader>
                 <h5 className="card-category">Active Cases</h5>
                 <CardTitle tag="h3">
-                  <i className="tim-icons icon-bell-55 text-info" /> 763,215
+                  <i className="tim-icons icon-bell-55 text-info" /> 13,08,806
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -124,7 +124,7 @@ function Dashboard(props) {
                 <h5 className="card-category">Deceased</h5>
                 <CardTitle tag="h3">
                   <i className="" />{" "}
-                  3,500
+                  351,344
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -142,7 +142,7 @@ function Dashboard(props) {
               <CardHeader>
                 <h5 className="card-category">Recovered</h5>
                 <CardTitle tag="h3">
-                  <i className="" /> 12,100K
+                  <i className="" /> 27,341,462
                 </CardTitle>
               </CardHeader>
               <CardBody>

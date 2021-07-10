@@ -26,11 +26,7 @@ const Tables = () => {
           'aria-label': 'Name',
         },
       },
-      {
-        label: 'Name',
-        field: 'name',
-        width: 270,
-      },
+       
       {
         label: 'Location',
         field: 'location',

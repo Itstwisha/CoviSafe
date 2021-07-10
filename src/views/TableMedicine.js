@@ -18,19 +18,15 @@ const TableMedicine = () => {
   const data = {
     columns: [
       {
-        label: 'Name',
-        field: 'name',
-        width: 150,
-        attributes: {
-          'aria-controls': 'DataTable',
-          'aria-label': 'Name',
-        },
-      },
-      {
         label: 'Medicine',
         field: 'medicine',
         width: 270,
+        attributes: {
+          'aria-controls': 'DataTable',
+          'aria-label': 'Medicine',
+        },
       },
+      
       {
         label: 'Location',
         field: 'location',

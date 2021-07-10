@@ -19,27 +19,23 @@ const Tables = () => {
   const data = {
     columns: [
       {
-        label: 'Name',
+        label: 'Service Provider',
         field: 'name',
         width: 150,
         attributes: {
           'aria-controls': 'DataTable',
-          'aria-label': 'Name',
+          'aria-label': 'Service Provider',
         },
       },
-      {
-        label: 'Service Provider',
-        field: 'name',
-        width: 270,
-      },
+       
       {
         label: 'Contact',
         field: 'contact',
         width: 100,
       },
       {
-        label: 'Remark',
-        field: 'remark',
+        label: 'Remarks',
+        field: 'remarks',
         width: 150,
       },
     ],

@@ -9,9 +9,9 @@ function Home(){
     
       <Card>
       <div class="page-header clear-filter">
-        <div class="content-center">
+        
           <div class="col-md-8 ml-auto mr-auto">
-            <div>
+          
             <img src={require("assets/img/logo-1.png").default} alt="logo" style={{marginTop: "20px",  top: "8px", left: "16px"}} / >
                <div class="left-container" style={{margin: "40px", marginTop: "60px", display: "grid", padding: "20px", textAlign: "left"}}>
                    <h1 style={{color: "#FA6400"}}>COVID 19</h1>
@@ -25,9 +25,7 @@ function Home(){
                <div class="right-container" >
               <img src={require("assets/img/side-image.png").default} alt="." style={{float: "none", marginBottom: "50px", padding: "30px"}} / >
                </div>
-            </div>
           </div>
-        </div>
       </div>
       </Card> 
       </div>
